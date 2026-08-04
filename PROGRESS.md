@@ -3,7 +3,7 @@
 Status legend: [ ] not started · [~] in progress · [x] complete
 
 ## Domain 1 – Agentic Architecture & Orchestration (27%)
-- [ ] 1.1 Agentic loops & stop_reason
+- [x] 1.1 Agentic loops & stop_reason — Stateless/single-turn API; the *harness* loops, executes tools & carries state, Claude only decides; branch on `stop_reason` (exit on `end_turn`, `max_tokens`=truncated, `pause_turn`=resume server-side), append assistant turn + user `tool_result` (match by id), report failures via `is_error`, bound the loop.
 - [ ] 1.2 Coordinator–subagent orchestration
 - [ ] 1.3 Subagent invocation, context passing, spawning
 - [ ] 1.4 Multi-step workflows: enforcement & handoff
@@ -41,6 +41,3 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [ ] 5.4 Context management in large codebases
 - [ ] 5.5 Human review workflows & confidence calibration
 - [ ] 5.6 Information provenance & multi-source synthesis
-
-## Session Log
-- (session summaries go here)
