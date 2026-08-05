@@ -4,7 +4,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 
 ## Domain 1 – Agentic Architecture & Orchestration (27%)
 - [x] 1.1 Agentic loops & stop_reason — Stateless/single-turn API; the *harness* loops, executes tools & carries state, Claude only decides; branch on `stop_reason` (exit on `end_turn`, `max_tokens`=truncated, `pause_turn`=resume server-side), append assistant turn + user `tool_result` (match by id), report failures via `is_error`, bound the loop.
-- [ ] 1.2 Coordinator–subagent orchestration
+- [x] 1.2 Coordinator–subagent orchestration — Coordinator decomposes→delegates→collects→synthesizes; a subagent is an **opaque, expensive tool call that returns a string**, each with its own isolated harness-managed context (state lives in the harness → total isolation). All coordination is explicit: seed context *down* into the brief, distilled results *up*; siblings can't see each other, coordinator is sole router. Push a **shared output contract** into every brief (prevents fragile synthesis parsing). Escalate to multi-agent ONLY for genuinely parallel/independent work or context overflow (it costs ~15× tokens) — sequential+dependent+fits-one-context → single agent (over-orchestration trap).
 - [ ] 1.3 Subagent invocation, context passing, spawning
 - [ ] 1.4 Multi-step workflows: enforcement & handoff
 - [ ] 1.5 Agent SDK hooks
