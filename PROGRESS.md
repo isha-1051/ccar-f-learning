@@ -14,7 +14,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 ## Domain 2 – Tool Design & MCP Integration (18%)
 - [x] 2.1 Tool interface design — a tool definition is prompt engineering for a model reader: design at task altitude, enforce via schema, shape/scope results.
 - [x] 2.2 Structured MCP error responses — errors are prompts: return recoverable task failures in-band via `isError` with corrective guidance.
-- [ ] 2.3 Tool distribution & tool_choice
+- [x] 2.3 Tool distribution & tool_choice — match the fix to its layer: distribution scopes, descriptions guide, tool_choice forces, hooks block.
 - [ ] 2.4 MCP server integration
 - [ ] 2.5 Built-in tools (Read/Write/Edit/Bash/Grep/Glob)
 
