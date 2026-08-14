@@ -16,7 +16,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 2.2 Structured MCP error responses — errors are prompts: return recoverable task failures in-band via `isError` with corrective guidance.
 - [x] 2.3 Tool distribution & tool_choice — match the fix to its layer: distribution scopes, descriptions guide, tool_choice forces, hooks block.
 - [x] 2.4 MCP server integration — scope encodes intent, `${VARS}` keep secrets out, buy standard integrations, expose catalogs as resources.
-- [ ] 2.5 Built-in tools (Read/Write/Edit/Bash/Grep/Glob)
+- [x] 2.5 Built-in tools — retrieve the minimum that answers the question, at the narrowest granularity the task allows.
 
 ## Domain 3 – Claude Code Configuration & Workflows (20%)
 - [ ] 3.1 CLAUDE.md hierarchy & @import
