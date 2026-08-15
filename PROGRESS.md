@@ -22,7 +22,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 3.1 CLAUDE.md hierarchy & @import — memory files merge additively with narrower scope winning; scope by location, split by topic, import for one source.
 - [x] 3.2 Custom slash commands & skills — the human invokes commands, the model invokes skills, and scope decides who else gets them.
 - [x] 3.3 Path-specific rules — glob frontmatter in `.claude/rules/` scopes conventions by file kind instead of by location.
-- [ ] 3.4 Plan mode vs direct execution
+- [x] 3.4 Plan mode vs direct execution — an enforced read-only state whose exit is human approval, chosen by cost of a wrong approach.
 - [ ] 3.5 Iterative refinement
 - [ ] 3.6 CI/CD integration
 
