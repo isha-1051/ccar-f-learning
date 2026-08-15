@@ -24,7 +24,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 3.3 Path-specific rules — glob frontmatter in `.claude/rules/` scopes conventions by file kind instead of by location.
 - [x] 3.4 Plan mode vs direct execution — an enforced read-only state whose exit is human approval, chosen by cost of a wrong approach.
 - [x] 3.5 Iterative refinement — diagnose why the first attempt failed, then demonstrate or extract instead of re-describing.
-- [ ] 3.6 CI/CD integration
+- [x] 3.6 CI/CD integration — CI removes the human, so interactivity, parsing, project context, and prior-run memory all move into config.
 
 ## Domain 4 – Prompt Engineering & Structured Output (20%)
 - [ ] 4.1 Explicit criteria / false positives
