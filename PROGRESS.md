@@ -19,7 +19,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 2.5 Built-in tools — retrieve the minimum that answers the question, at the narrowest granularity the task allows.
 
 ## Domain 3 – Claude Code Configuration & Workflows (20%)
-- [ ] 3.1 CLAUDE.md hierarchy & @import
+- [x] 3.1 CLAUDE.md hierarchy & @import — memory files merge additively with narrower scope winning; scope by location, split by topic, import for one source.
 - [ ] 3.2 Custom slash commands & skills
 - [ ] 3.3 Path-specific rules
 - [ ] 3.4 Plan mode vs direct execution
