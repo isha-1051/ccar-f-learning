@@ -23,7 +23,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 3.2 Custom slash commands & skills — the human invokes commands, the model invokes skills, and scope decides who else gets them.
 - [x] 3.3 Path-specific rules — glob frontmatter in `.claude/rules/` scopes conventions by file kind instead of by location.
 - [x] 3.4 Plan mode vs direct execution — an enforced read-only state whose exit is human approval, chosen by cost of a wrong approach.
-- [ ] 3.5 Iterative refinement
+- [x] 3.5 Iterative refinement — diagnose why the first attempt failed, then demonstrate or extract instead of re-describing.
 - [ ] 3.6 CI/CD integration
 
 ## Domain 4 – Prompt Engineering & Structured Output (20%)
