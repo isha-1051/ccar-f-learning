@@ -20,7 +20,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 
 ## Domain 3 – Claude Code Configuration & Workflows (20%)
 - [x] 3.1 CLAUDE.md hierarchy & @import — memory files merge additively with narrower scope winning; scope by location, split by topic, import for one source.
-- [ ] 3.2 Custom slash commands & skills
+- [x] 3.2 Custom slash commands & skills — the human invokes commands, the model invokes skills, and scope decides who else gets them.
 - [ ] 3.3 Path-specific rules
 - [ ] 3.4 Plan mode vs direct execution
 - [ ] 3.5 Iterative refinement
