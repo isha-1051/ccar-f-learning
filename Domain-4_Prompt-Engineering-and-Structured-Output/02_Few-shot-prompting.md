@@ -1,7 +1,7 @@
 # Topic 4.2 — Few-shot prompting
 
 **Domain:** 4 — Prompt Engineering & Structured Output (20% of exam)
-**Topic number:** 2 of 6 within Domain 4 · Topic 20 of 32 overall
+**Topic number:** 2 of 6 within Domain 4 · Topic 20 of 30 overall
 
 ---
 
