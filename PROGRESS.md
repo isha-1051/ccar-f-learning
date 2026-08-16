@@ -27,7 +27,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 3.6 CI/CD integration — CI removes the human, so interactivity, parsing, project context, and prior-run memory all move into config.
 
 ## Domain 4 – Prompt Engineering & Structured Output (20%)
-- [ ] 4.1 Explicit criteria / false positives
+- [x] 4.1 Explicit criteria / false positives — over-flagging is an underspecified-boundary problem, so enumerate inclusions and exclusions instead of applying vague pressure.
 - [ ] 4.2 Few-shot prompting
 - [ ] 4.3 Structured output via tool_use & JSON schemas
 - [ ] 4.4 Validation, retry, feedback loops
