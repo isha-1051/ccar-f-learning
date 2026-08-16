@@ -29,7 +29,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 ## Domain 4 – Prompt Engineering & Structured Output (20%)
 - [x] 4.1 Explicit criteria / false positives — over-flagging is an underspecified-boundary problem, so enumerate inclusions and exclusions instead of applying vague pressure.
 - [x] 4.2 Few-shot prompting — examples show what prose can't state, so they calibrate form and judgment but never guarantee or prohibit.
-- [ ] 4.3 Structured output via tool_use & JSON schemas
+- [x] 4.3 Structured output via tool_use & JSON schemas — schemas guarantee shape, never truth, and `tool_choice` decides who picks the schema.
 - [ ] 4.4 Validation, retry, feedback loops
 - [ ] 4.5 Batch processing
 - [ ] 4.6 Multi-instance / multi-pass review
