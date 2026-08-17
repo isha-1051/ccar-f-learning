@@ -32,7 +32,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 4.3 Structured output via tool_use & JSON schemas — schemas guarantee shape, never truth, and `tool_choice` decides who picks the schema.
 - [x] 4.4 Validation, retry, feedback loops — retry only fixes what the model mis-assembled, never what the source never contained.
 - [x] 4.5 Batch processing — trades latency for 50% off, so only latency-tolerant single-turn workloads qualify.
-- [ ] 4.6 Multi-instance / multi-pass review
+- [x] 4.6 Multi-instance / multi-pass review — review quality comes from fresh context and scoped passes, never from more effort.
 
 ## Domain 5 – Context Management & Reliability (15%)
 - [ ] 5.1 Preserving info across long context
