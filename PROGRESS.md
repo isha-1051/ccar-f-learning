@@ -38,6 +38,6 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 5.1 Preserving info across long context — put critical facts where compression can't reach, and trim noise before it accumulates.
 - [x] 5.2 Escalation & ambiguity resolution — escalate on the request's properties (human asked, policy silent, progress stalled), never on sentiment, confidence, or complexity.
 - [x] 5.3 Error propagation across multi-agent systems — a failing subagent reports structured context and partial results, while the coordinator alone decides recovery.
-- [ ] 5.4 Context management in large codebases
+- [x] 5.4 Context management in large codebases — narrow before you read, and put durable state where compaction can't reach it.
 - [ ] 5.5 Human review workflows & confidence calibration
 - [ ] 5.6 Information provenance & multi-source synthesis
