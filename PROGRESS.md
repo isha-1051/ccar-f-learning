@@ -36,7 +36,7 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 
 ## Domain 5 – Context Management & Reliability (15%)
 - [x] 5.1 Preserving info across long context — put critical facts where compression can't reach, and trim noise before it accumulates.
-- [ ] 5.2 Escalation & ambiguity resolution
+- [x] 5.2 Escalation & ambiguity resolution — escalate on the request's properties (human asked, policy silent, progress stalled), never on sentiment, confidence, or complexity.
 - [ ] 5.3 Error propagation across multi-agent systems
 - [ ] 5.4 Context management in large codebases
 - [ ] 5.5 Human review workflows & confidence calibration
