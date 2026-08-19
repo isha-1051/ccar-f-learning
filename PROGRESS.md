@@ -39,5 +39,5 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 5.2 Escalation & ambiguity resolution — escalate on the request's properties (human asked, policy silent, progress stalled), never on sentiment, confidence, or complexity.
 - [x] 5.3 Error propagation across multi-agent systems — a failing subagent reports structured context and partial results, while the coordinator alone decides recovery.
 - [x] 5.4 Context management in large codebases — narrow before you read, and put durable state where compaction can't reach it.
-- [ ] 5.5 Human review workflows & confidence calibration
+- [x] 5.5 Human review workflows & confidence calibration — validate accuracy per document type and field before automating, then keep sampling the auto-approved bucket.
 - [ ] 5.6 Information provenance & multi-source synthesis
