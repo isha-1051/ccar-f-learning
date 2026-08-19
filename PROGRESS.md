@@ -40,4 +40,4 @@ Status legend: [ ] not started · [~] in progress · [x] complete
 - [x] 5.3 Error propagation across multi-agent systems — a failing subagent reports structured context and partial results, while the coordinator alone decides recovery.
 - [x] 5.4 Context management in large codebases — narrow before you read, and put durable state where compaction can't reach it.
 - [x] 5.5 Human review workflows & confidence calibration — validate accuracy per document type and field before automating, then keep sampling the auto-approved bucket.
-- [ ] 5.6 Information provenance & multi-source synthesis
+- [x] 5.6 Information provenance & multi-source synthesis — attribution dies at the compressing agent, so enforce claim-source-date schemas there and annotate conflicts.
